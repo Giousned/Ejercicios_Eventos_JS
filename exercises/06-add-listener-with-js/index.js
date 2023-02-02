@@ -4,3 +4,12 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+
+function message () {
+	alert("wuju");
+  }
+
+const button = document.getElementById("theGreen");
+
+button.addEventListener("click", message);
+
